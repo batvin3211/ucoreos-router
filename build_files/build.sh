@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y tmux procps iproute dnsmasq iptables-nft hostapd lw-cli haveged NetworkManager-wifi iwlwifi-dvm-firmware
+dnf5 install -y hostapd lw-cli haveged NetworkManager-wifi iwlwifi-dvm-firmware
 
 # Use a COPR Example:
 #
