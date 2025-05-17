@@ -22,5 +22,4 @@ dnf5 install -y tmux procps iproute dnsmasq iptables-nft hostapd lw-cli haveged 
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
-systemctl enable dnsmasq.service
 systemctl enable network-online.target
